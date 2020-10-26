@@ -16,6 +16,7 @@ int main() {
   std::regex factCheck ("(fact)(.*)");
   std::regex amCheck ("(AM)(.*)");
   std:: regex pmCheck ("(PM)(.*)");
+  std::regex calCheck ("(calendar)(.*)");x`
 
 
   if (std::regex_search (input,m, factCheck)) {
